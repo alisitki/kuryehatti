@@ -27,9 +27,9 @@ const HomePage: React.FC = () => {
 
 
         <p className="text-lg text-white mt-3 max-w-2xl mx-auto leading-7">
-          "Hızlı, güvenilir ve profesyonel kurye hizmetimizle gönderileriniz
+        &ldquo;Hızlı, güvenilir ve profesyonel kurye hizmetimizle gönderileriniz
           her zaman güvende. En hızlı teslimat için hemen bizimle iletişime
-          geçin."
+          geçin.&ldquo;
         </p>
       </header>
 
