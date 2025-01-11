@@ -60,7 +60,7 @@ const HomePage: React.FC = () => {
       {/* İletişim Butonları */}
       <div className="flex flex-col sm:flex-row items-center gap-4">
         <a
-          href="https://wa.me/905xxxxxxxxx" // WhatsApp numarası buraya eklenecek
+          href="https://wa.me/905369308282" // WhatsApp numarası buraya eklenecek
           className="flex items-center bg-green-500 text-white px-6 py-3 rounded-lg shadow hover:bg-green-600 hover:scale-105 transition-transform duration-200 focus:ring-2 focus:ring-green-400"
           target="_blank"
           rel="noopener noreferrer"
@@ -69,7 +69,7 @@ const HomePage: React.FC = () => {
           WhatsApp İle İletişim
         </a>
         <a
-          href="tel:+905xxxxxxxxx" // Telefon numarası buraya eklenecek
+          href="tel:+905369308282" // Telefon numarası buraya eklenecek
           className="flex items-center bg-blue-500 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-600 hover:scale-105 transition-transform duration-200 focus:ring-2 focus:ring-blue-400"
         >
           <FaPhone className="mr-2 text-2xl" />
