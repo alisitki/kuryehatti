@@ -28,8 +28,8 @@ const HomePage: React.FC = () => {
 
         <p className="text-lg text-white mt-3 max-w-2xl mx-auto leading-7">
         &ldquo;Hızlı, güvenilir ve profesyonel kurye hizmetimizle gönderileriniz
-          her zaman güvende. En hızlı teslimat için hemen bizimle iletişime
-          geçin.&ldquo;
+  her zaman güvende. En hızlı teslimat için hemen bizimle iletişime
+  geçin.&rdquo;
         </p>
       </header>
 
@@ -87,7 +87,7 @@ const HomePage: React.FC = () => {
           <li className="mb-1">7/24 hızlı ve güvenilir teslimat</li>
   <li className="mb-1">Uygun fiyatlandırma ve şeffaf süreç</li>
   <li className="mb-1">Güler yüzlü ve deneyimli kurye ekibi</li>
-  <li className="mb-1">Tüm Türkiye'ye geniş teslimat ağı</li>
+  <li className="mb-1">Tüm Türkiye&apos;ye geniş teslimat ağı</li>
           </ul>
         </div>
       </section>
