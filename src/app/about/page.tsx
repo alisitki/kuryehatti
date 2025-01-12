@@ -11,7 +11,7 @@ const AboutPage = () => {
         <title>Hakkımızda - Kurye Hattı | İstanbul Kurye Hizmetleri</title>
         <meta
           name="description"
-          content="Kurye Hattı olarak İstanbul'da arabalı kurye, acil nakliye ve ekspres kurye hizmetleri sunuyoruz. 2010'dan beri profesyonel teslimat çözümleri."
+          content="Kurye Hattı olarak İstanbul&#39;da arabalı kurye, acil nakliye ve ekspres kurye hizmetleri sunuyoruz. 2010&#39;dan beri profesyonel teslimat çözümleri."
         />
         <meta name="keywords" content="kurye hattı, arabalı kurye, ekspres kurye, istanbul kurye, acil nakliye, şehir içi teslimat, profesyonel kurye hizmetleri, hızlı kurye, güvenilir kurye" />
         <meta name="robots" content="index, follow" />
@@ -19,13 +19,13 @@ const AboutPage = () => {
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Hakkımızda - Kurye Hattı | İstanbul Kurye Hizmetleri" />
-        <meta property="og:description" content="Kurye Hattı olarak İstanbul'da arabalı kurye, acil nakliye ve ekspres kurye hizmetleri sunuyoruz." />
+        <meta property="og:description" content="Kurye Hattı olarak İstanbul&#39;da arabalı kurye, acil nakliye ve ekspres kurye hizmetleri sunuyoruz." />
         <meta property="og:image" content="/doblo.jpg" />
         
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Hakkımızda - Kurye Hattı | İstanbul Kurye Hizmetleri" />
-        <meta name="twitter:description" content="Kurye Hattı olarak İstanbul'da arabalı kurye, acil nakliye ve ekspres kurye hizmetleri sunuyoruz." />
+        <meta name="twitter:description" content="Kurye Hattı olarak İstanbul&#39;da arabalı kurye, acil nakliye ve ekspres kurye hizmetleri sunuyoruz." />
         <meta name="twitter:image" content="/doblo.jpg" />
         
         {/* Canonical URL */}
@@ -43,15 +43,15 @@ const AboutPage = () => {
         <h1 className="text-4xl font-bold text-gray-800 mb-6 text-center">Hakkımızda</h1>
         <div className="space-y-4 text-gray-700">
           <p>
-            Kurye Hattı olarak, "Kurye", "Arabalı Kurye", "Acil Nakliye" ve "Profesyonel Kurye Hizmetleri" alanlarında yılların verdiği deneyimle müşterilerimize en kaliteli ve güvenilir hizmeti sunmaktayız.
+            Kurye Hattı olarak, &quot;Kurye&quot;, &quot;Arabalı Kurye&quot;, &quot;Acil Nakliye&quot; ve &quot;Profesyonel Kurye Hizmetleri&quot; alanlarında yılların verdiği deneyimle müşterilerimize en kaliteli ve güvenilir hizmeti sunmaktayız.
           </p>
           <p>
-            2010 yılından bu yana, İstanbul'un her noktasına hızlı ve güvenli teslimat hizmeti vermekteyiz. 
+            2010 yılından bu yana, İstanbul&#39;un her noktasına hızlı ve güvenli teslimat hizmeti vermekteyiz. 
             Profesyonel ekibimiz ve modern araç filomuzla, gönderilerinizi en kısa sürede yerine ulaştırıyoruz.
           </p>
           <p>
             Müşteri memnuniyetini her zaman ön planda tutarak, her geçen gün hizmet kalitemizi daha da yükseltmeyi hedefliyoruz.
-            "Ekspres Nakliye" ve "Şehir İçi Teslimat" çözümlerimizle işlerinizi hızlandırıyoruz.
+            &quot;Ekspres Nakliye&quot; ve &quot;Şehir İçi Teslimat&quot; çözümlerimizle işlerinizi hızlandırıyoruz.
           </p>
           <p>
             Deneyimli kadromuz ve güçlü altyapımızla, sizlere en iyi hizmeti sunmak için çalışıyoruz. 
@@ -74,4 +74,4 @@ const AboutPage = () => {
   );
 };
 
-export default  AboutPage ;
+export default AboutPage;

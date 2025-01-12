@@ -1,17 +1,18 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 import Head from "next/head";
+import Navbar from "../components/Navbar";
 import { FaWhatsapp, FaPhone, FaMapMarkerAlt, FaEnvelope } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
+
 const ContactPage = () => {
   return (
     <div className="min-h-screen w-full flex flex-col items-center py-8 px-4 relative">
-            <Head>
+      <Head>
         <title>İletişim - Kurye Hattı | İstanbul Kurye İletişim</title>
         <meta
           name="description"
-          content="Kurye Hattı iletişim bilgileri. İstanbul'da arabalı kurye, acil nakliye ve ekspres kurye hizmetlerimiz için 7/24 bize ulaşabilirsiniz. WhatsApp ve telefon ile hemen iletişime geçin."
+          content="Kurye Hattı iletişim bilgileri. İstanbul&#39;da arabalı kurye, acil nakliye ve ekspres kurye hizmetlerimiz için 7/24 bize ulaşabilirsiniz. WhatsApp ve telefon ile hemen iletişime geçin."
         />
         <meta 
           name="keywords" 
@@ -23,14 +24,14 @@ const ContactPage = () => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://kuryehatti.com/contact" />
         <meta property="og:title" content="İletişim - Kurye Hattı | İstanbul Kurye İletişim" />
-        <meta property="og:description" content="İstanbul'da arabalı kurye, acil nakliye ve ekspres kurye hizmetlerimiz için 7/24 bize ulaşabilirsiniz. WhatsApp ve telefon ile hemen iletişime geçin." />
+        <meta property="og:description" content="İstanbul&#39;da arabalı kurye, acil nakliye ve ekspres kurye hizmetlerimiz için 7/24 bize ulaşabilirsiniz. WhatsApp ve telefon ile hemen iletişime geçin." />
         <meta property="og:image" content="/doblo.jpg" />
         
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://kuryehatti.com/contact" />
         <meta name="twitter:title" content="İletişim - Kurye Hattı | İstanbul Kurye İletişim" />
-        <meta name="twitter:description" content="İstanbul'da arabalı kurye, acil nakliye ve ekspres kurye hizmetlerimiz için 7/24 bize ulaşabilirsiniz." />
+        <meta name="twitter:description" content="İstanbul&#39;da arabalı kurye, acil nakliye ve ekspres kurye hizmetlerimiz için 7/24 bize ulaşabilirsiniz." />
         <meta name="twitter:image" content="/doblo.jpg" />
         
         {/* Canonical URL */}
@@ -108,8 +109,6 @@ const ContactPage = () => {
         />
       </Link>
     </div>
-
-    
   );
 };
 

@@ -7,11 +7,11 @@ import Image from "next/image";
 const ServicesPage = () => {
   return (
     <div className="min-h-screen w-full flex flex-col items-center py-8 px-4 relative">
-     <Head>
+      <Head>
         <title>Hizmetlerimiz - Kurye Hattı | İstanbul Araçlı Kurye ve Nakliye</title>
         <meta
           name="description"
-          content="Kurye Hattı olarak araçlı kurye, ekspres nakliye, acil teslimat gibi profesyonel hizmetler sunuyoruz. İstanbul'da 7/24 güvenilir ve hızlı teslimat için bizimle iletişime geçin."
+          content="Kurye Hattı olarak araçlı kurye, ekspres nakliye, acil teslimat gibi profesyonel hizmetler sunuyoruz. İstanbul&#39;da 7/24 güvenilir ve hızlı teslimat için bizimle iletişime geçin."
         />
         <meta 
           name="keywords" 
@@ -23,14 +23,14 @@ const ServicesPage = () => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://kuryehatti.com/services" />
         <meta property="og:title" content="Hizmetlerimiz - Kurye Hattı | İstanbul Araçlı Kurye ve Nakliye" />
-        <meta property="og:description" content="İstanbul'da araçlı kurye, ekspres nakliye ve acil teslimat hizmetleri. 7/24 profesyonel kurye çözümleri için hemen arayın." />
+        <meta property="og:description" content="İstanbul&#39;da araçlı kurye, ekspres nakliye ve acil teslimat hizmetleri. 7/24 profesyonel kurye çözümleri için hemen arayın." />
         <meta property="og:image" content="/doblo.jpg" />
         
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://kuryehatti.com/services" />
         <meta name="twitter:title" content="Hizmetlerimiz - Kurye Hattı | İstanbul Araçlı Kurye ve Nakliye" />
-        <meta name="twitter:description" content="İstanbul'da araçlı kurye, ekspres nakliye ve acil teslimat hizmetleri. 7/24 profesyonel kurye çözümleri için hemen arayın." />
+        <meta name="twitter:description" content="İstanbul&#39;da araçlı kurye, ekspres nakliye ve acil teslimat hizmetleri. 7/24 profesyonel kurye çözümleri için hemen arayın." />
         <meta name="twitter:image" content="/doblo.jpg" />
         
         {/* Canonical URL */}
@@ -52,7 +52,7 @@ const ServicesPage = () => {
             <p className="text-gray-700">
               Büyük paketler ve toplu gönderiler için araçlı kurye hizmetimizle yanınızdayız.
               Güvenli ve profesyonel teslimat garantisi ile eşyalarınızı zamanında teslim ediyoruz.
-              7/24 hizmet anlayışımızla İstanbul'un her noktasına hizmet veriyoruz.
+              7/24 hizmet anlayışımızla İstanbul&#39;un her noktasına hizmet veriyoruz.
             </p>
           </div>
           <div className="space-y-4 p-6 bg-gray-50 rounded-lg">

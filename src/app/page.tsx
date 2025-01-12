@@ -9,10 +9,10 @@ const HomePage: React.FC = () => {
   return (
     <div className="min-h-screen w-full flex flex-col items-center py-8 px-4 relative">
       <Head>
-        <title>Kurye Hattı - İstanbul'da Hızlı ve Güvenilir Kurye Hizmeti</title>
+        <title>Kurye Hattı - İstanbul&#39;da Hızlı ve Güvenilir Kurye Hizmeti</title>
         <meta
           name="description"
-          content="Kurye Hattı ile İstanbul'da hızlı, güvenilir ve profesyonel kurye hizmetlerinden yararlanın. Araçlı kurye ve ekspres nakliye hizmetleri için 7/24 hizmetinizdeyiz."
+          content="Kurye Hattı ile İstanbul&#39;da hızlı, güvenilir ve profesyonel kurye hizmetlerinden yararlanın. Araçlı kurye ve ekspres nakliye hizmetleri için 7/24 hizmetinizdeyiz."
         />
         <meta 
           name="keywords" 
@@ -23,15 +23,15 @@ const HomePage: React.FC = () => {
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://kuryehatti.com/" />
-        <meta property="og:title" content="Kurye Hattı - İstanbul'da Hızlı ve Güvenilir Kurye Hizmeti" />
-        <meta property="og:description" content="İstanbul'da araçlı kurye ve ekspres nakliye hizmetleri. 7/24 profesyonel kurye çözümleri için hemen arayın." />
+        <meta property="og:title" content="Kurye Hattı - İstanbul&#39;da Hızlı ve Güvenilir Kurye Hizmeti" />
+        <meta property="og:description" content="İstanbul&#39;da araçlı kurye ve ekspres nakliye hizmetleri. 7/24 profesyonel kurye çözümleri için hemen arayın." />
         <meta property="og:image" content="/doblo.jpg" />
         
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:url" content="https://kuryehatti.com/" />
-        <meta name="twitter:title" content="Kurye Hattı - İstanbul'da Hızlı ve Güvenilir Kurye Hizmeti" />
-        <meta name="twitter:description" content="İstanbul'da araçlı kurye ve ekspres nakliye hizmetleri. 7/24 profesyonel kurye çözümleri için hemen arayın." />
+        <meta name="twitter:title" content="Kurye Hattı - İstanbul&#39;da Hızlı ve Güvenilir Kurye Hizmeti" />
+        <meta name="twitter:description" content="İstanbul&#39;da araçlı kurye ve ekspres nakliye hizmetleri. 7/24 profesyonel kurye çözümleri için hemen arayın." />
         <meta name="twitter:image" content="/doblo.jpg" />
         
         {/* Canonical URL */}
@@ -51,7 +51,6 @@ const HomePage: React.FC = () => {
 
       {/* Navigation */}
       <nav className="w-full max-w-4xl text-center mb-8">
-
         <ul className="flex justify-center space-x-4">
           <li>
             <Link href="/" legacyBehavior>
@@ -110,7 +109,7 @@ const HomePage: React.FC = () => {
       </div>
 
       {/* Görsel / Hero Image */}
-      <div className="relative w-full max-w-3xl h-64 mb-8 rounded-md overflow-hidden shadow-lg"> {/* max-w-3xl yerine max-w-2xl */}
+      <div className="relative w-full max-w-3xl h-64 mb-8 rounded-md overflow-hidden shadow-lg">
         <Image
           src="/doblo.jpg"
           alt="Ticari Araç"
@@ -167,7 +166,7 @@ const HomePage: React.FC = () => {
           width={180}
           height={180}
           className="rounded-3xl hover:scale-105 transition-transform"
-          style={{ filter: "brightness(0) invert(1)" }} // Siyah renk için filtre ekledik
+          style={{ filter: "brightness(0) invert(1)" }}
         />
       </Link>
 
