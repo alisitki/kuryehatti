@@ -1,4 +1,6 @@
 import React from "react";
+import Head from "next/head";
+import Link from "next/link";
 import Image from "next/image";
 import { FaWhatsapp, FaPhone } from "react-icons/fa";
 import "@fontsource/montserrat";
@@ -6,10 +8,73 @@ import "@fontsource/montserrat";
 const HomePage: React.FC = () => {
   return (
     <div className="min-h-screen w-full flex flex-col items-center py-8 px-4 relative">
+      <Head>
+        <title>Kurye Hattı - İstanbul'da Hızlı ve Güvenilir Kurye Hizmeti</title>
+        <meta
+          name="description"
+          content="Kurye Hattı ile İstanbul'da hızlı, güvenilir ve profesyonel kurye hizmetlerinden yararlanın. Araçlı kurye ve ekspres nakliye hizmetleri için 7/24 hizmetinizdeyiz."
+        />
+        <meta 
+          name="keywords" 
+          content="kurye hattı, istanbul kurye, araçlı kurye, ekspres kurye, hızlı kurye, güvenilir kurye, acil kurye, şehir içi kurye, motokurye, 7/24 kurye hizmeti, anadolu yakası kurye, avrupa yakası kurye" 
+        />
+        <meta name="robots" content="index, follow" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://kuryehatti.com/" />
+        <meta property="og:title" content="Kurye Hattı - İstanbul'da Hızlı ve Güvenilir Kurye Hizmeti" />
+        <meta property="og:description" content="İstanbul'da araçlı kurye ve ekspres nakliye hizmetleri. 7/24 profesyonel kurye çözümleri için hemen arayın." />
+        <meta property="og:image" content="/doblo.jpg" />
+        
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://kuryehatti.com/" />
+        <meta name="twitter:title" content="Kurye Hattı - İstanbul'da Hızlı ve Güvenilir Kurye Hizmeti" />
+        <meta name="twitter:description" content="İstanbul'da araçlı kurye ve ekspres nakliye hizmetleri. 7/24 profesyonel kurye çözümleri için hemen arayın." />
+        <meta name="twitter:image" content="/doblo.jpg" />
+        
+        {/* Canonical URL */}
+        <link rel="canonical" href="https://kuryehatti.com/" />
+        
+        {/* Ek Meta Etiketleri */}
+        <meta name="geo.region" content="TR-34" />
+        <meta name="geo.placename" content="İstanbul" />
+        <meta name="geo.position" content="40.89228690868145;29.189148178710223" />
+        <meta name="ICBM" content="40.89228690868145, 29.189148178710223" />
+      </Head>
+
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-[url('/bg2.jpg')] bg-cover bg-center opacity-80 -z-20"
       ></div>
+
+      {/* Navigation */}
+      <nav className="w-full max-w-4xl text-center mb-8">
+
+        <ul className="flex justify-center space-x-4">
+          <li>
+            <Link href="/" legacyBehavior>
+              <a className="text-white hover:underline">Ana Sayfa</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/about" legacyBehavior>
+              <a className="text-white hover:underline">Hakkımızda</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/services" legacyBehavior>
+              <a className="text-white hover:underline">Hizmetlerimiz</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/contact" legacyBehavior>
+              <a className="text-white hover:underline">İletişim</a>
+            </Link>
+          </li>
+        </ul>
+      </nav>
 
       {/* Header */}
       <header className="w-full max-w-4xl text-center mb-8">
@@ -24,14 +89,34 @@ const HomePage: React.FC = () => {
         </p>
       </header>
 
+      {/* İletişim Butonları */}
+      <div className="flex flex-col sm:flex-row items-center gap-4 mb-8">
+        <a
+          href="https://wa.me/905525308282"
+          className="flex items-center bg-green-500 text-white px-6 py-3 rounded-lg shadow hover:bg-green-600 hover:scale-105 transition-transform duration-200 focus:ring-2 focus:ring-green-400"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaWhatsapp className="mr-2 text-2xl" />
+          WhatsApp İle İletişim
+        </a>
+        <a
+          href="tel:+905525308282"
+          className="flex items-center bg-blue-500 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-600 hover:scale-105 transition-transform duration-200 focus:ring-2 focus:ring-blue-400"
+        >
+          <FaPhone className="mr-2 text-2xl" />
+          Telefonla Ara
+        </a>
+      </div>
+
       {/* Görsel / Hero Image */}
-      <div className="relative w-full max-w-3xl h-64 mb-8 rounded-md overflow-hidden shadow-lg">
+      <div className="relative w-full max-w-3xl h-64 mb-8 rounded-md overflow-hidden shadow-lg"> {/* max-w-3xl yerine max-w-2xl */}
         <Image
-          src="/doblo.jpg" // Kendi görselinizin yolunu düzenleyin
+          src="/doblo.jpg"
           alt="Ticari Araç"
           layout="fill"
           objectFit="cover"
-          className="transition-transform duration-300 ease-in-out hover:scale-105"
+          className="object-contain transition-transform duration-300 ease-in-out hover:scale-105"
         />
       </div>
 
@@ -48,29 +133,9 @@ const HomePage: React.FC = () => {
         </p>
       </section>
 
-      {/* İletişim Butonları */}
-      <div className="flex flex-col sm:flex-row items-center gap-4">
-        <a
-          href="https://wa.me/905369308282" // WhatsApp numarası buraya eklenecek
-          className="flex items-center bg-green-500 text-white px-6 py-3 rounded-lg shadow hover:bg-green-600 hover:scale-105 transition-transform duration-200 focus:ring-2 focus:ring-green-400"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <FaWhatsapp className="mr-2 text-2xl" />
-          WhatsApp İle İletişim
-        </a>
-        <a
-          href="tel:+905369308282" // Telefon numarası buraya eklenecek
-          className="flex items-center bg-blue-500 text-white px-6 py-3 rounded-lg shadow hover:bg-blue-600 hover:scale-105 transition-transform duration-200 focus:ring-2 focus:ring-blue-400"
-        >
-          <FaPhone className="mr-2 text-2xl" />
-          Telefonla Ara
-        </a>
-      </div>
-
-      <div className="relative w-full max-w-3xl h-96 mb-8 mt-10 rounded-md overflow-hidden shadow-lg ">
+      <div className="relative w-full max-w-3xl h-96 mb-8 rounded-md overflow-hidden shadow-lg">
         <Image
-          src="/araba2.jpg" // Kendi görselinizin yolunu düzenleyin
+          src="/araba2.jpg"
           alt="Ticari Araç"
           layout="fill"
           objectFit="cover"
@@ -79,7 +144,7 @@ const HomePage: React.FC = () => {
       </div>
 
       {/* Harita */}
-      <section className="w-full max-w-4xl mt-12">
+      <section className="w-full max-w-4xl ">
         <div className="bg-white rounded-lg shadow p-6 text-center">
           <h3 className="text-xl font-medium text-gray-800 mb-4">Konumumuz</h3>
           <div className="w-full h-96 overflow-hidden rounded-md">
@@ -94,6 +159,17 @@ const HomePage: React.FC = () => {
           </div>
         </div>
       </section>
+
+      <Link href="/" className="flex items-center mt-10">
+        <Image 
+          src="/logo.svg"
+          alt="Kurye Hattı Logo"
+          width={180}
+          height={180}
+          className="rounded-3xl hover:scale-105 transition-transform"
+          style={{ filter: "brightness(0) invert(1)" }} // Siyah renk için filtre ekledik
+        />
+      </Link>
 
       {/* Footer */}
       <footer className="w-full max-w-4xl text-center text-white text-sm mt-8">

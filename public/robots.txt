@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Crawl-delay: 10
+
+Sitemap: https://kuryehatti.com/sitemap.xml
+
+# Google spesifik yönergeler
+User-agent: Googlebot
+Allow: /
+Allow: /*.js
+Allow: /*.css
+Allow: /*.png
+Allow: /*.jpg
+Allow: /*.gif
+
+# Bing spesifik yönergeler
+User-agent: Bingbot
+Allow: /
